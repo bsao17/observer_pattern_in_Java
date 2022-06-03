@@ -1,8 +1,8 @@
 package com.company;
 
-public class Main {
+public class Duck {
 
     public static void main(String[] args) {
-	// write your code here
+
     }
 }
