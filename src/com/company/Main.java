@@ -1,6 +1,6 @@
 package com.company;
 
-public class DuckParty {
+public class Main {
 
     public static void main(String[] args) {
         Ducks colvert = new Ducks(2, "Colvert");
@@ -9,5 +9,8 @@ public class DuckParty {
 
         System.out.println("The specie of this duck is " + colvert.duckType + " !");
         System.out.println("and there will " + colvert.duckNumber + " to the duck party !");
+
+        colvert.Fly();
+        colvert.singing();
     }
 }
