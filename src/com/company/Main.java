@@ -8,7 +8,7 @@ public class Main {
         Ducks duckPicture = new Ducks(5, "hologram");
 
         System.out.println("The specie of this duck is " + colvert.duckType + " !");
-        System.out.println("and there will " + colvert.duckNumber + " to the duck party !");
+        System.out.println("and there will " + colvert.duckNumber + " duck at the party !");
 
         colvert.Fly();
         colvert.singing();
