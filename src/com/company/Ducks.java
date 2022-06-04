@@ -14,7 +14,7 @@ public class Ducks extends Flying implements Soundable {
 
     @Override
     public void singing() {
-        System.out.println("the sDuck sing ... Coin Coin Coin");
+        System.out.println("the Duck sing ... Coin Coin Coin");
     }
 };
 
