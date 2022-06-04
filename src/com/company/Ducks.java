@@ -7,8 +7,5 @@ public class Ducks {
         this.duckNumber = duckNumber + number;
         this.duckType = duckType;
     }
-    Ducks colvert = new Ducks(2, "Colvert");
-    Ducks duckToy = new Ducks(1, "toy");
-    Ducks duckPicture = new Ducks(5, "images");
 };
 
