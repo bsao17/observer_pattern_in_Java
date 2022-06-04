@@ -1,11 +1,20 @@
 package com.company;
 
-public class Ducks {
+import com.company.behaviors.Flying;
+import com.company.behaviors.Soundable;
+
+public class Ducks extends Flying implements Soundable {
     int duckNumber;
     String duckType;
     Ducks(int number, String duckType ){
+        super();
         this.duckNumber = duckNumber + number;
         this.duckType = duckType;
+    }
+
+    @Override
+    public void duckSinging() {
+        System.out.println("the sDuck sing ... Coin Coin Coin");
     }
 };
 
