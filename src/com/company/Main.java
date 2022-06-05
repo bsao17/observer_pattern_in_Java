@@ -1,7 +1,8 @@
 package com.company;
 
-public class Main {
+import com.company.duckParty.Ducks;
 
+public class Main {
     public static void main(String[] args) {
         Ducks colvert = new Ducks(2, "Colvert");
         Ducks duckToy = new Ducks(1, "toy");
