@@ -1,6 +1,6 @@
 package com.company;
 
 public interface Behavioral {
-    public void singing(String value);
+    public void singing(boolean value);
     public void flying(boolean value);
 }
