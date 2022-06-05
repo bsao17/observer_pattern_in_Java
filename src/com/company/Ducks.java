@@ -1,9 +1,8 @@
 package com.company;
 
-import com.company.behaviors.Flying;
 import com.company.behaviors.Soundable;
 
-public class Ducks extends Flying implements Soundable {
+public class Ducks implements Soundable {
     int duckNumber;
     String duckType;
     Ducks(int number, String duckType ){
