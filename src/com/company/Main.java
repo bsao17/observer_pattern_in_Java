@@ -10,6 +10,7 @@ public class Main {
         System.out.println("The specie of this duck is " + colvert.duckType + " !");
         System.out.println("and there will " + colvert.duckNumber + " duck at the party !");
 
-        colvert.singing();
+        colvert.singing("the Duck sing ... Coin Coin Coin");
+        colvert.flying("the Duck fly fly fly ...");
     }
 }
