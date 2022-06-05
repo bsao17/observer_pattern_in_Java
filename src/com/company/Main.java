@@ -12,5 +12,8 @@ public class Main {
 
         colvert.singing("the Duck sing ... Coin Coin Coin");
         colvert.flying(true);
+
+        duckToy.singing("This duck singing ... pwet pwet pwet");
+        duckToy.flying(false);
     }
 }
