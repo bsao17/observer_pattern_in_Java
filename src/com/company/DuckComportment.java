@@ -6,7 +6,7 @@ public class DuckComportment implements Behavioral {
         System.out.println(value);
     }
     @Override
-    public void flying(String value){
-        System.out.println(value);
+    public boolean flying(boolean value){
+        return value;
     }
 }

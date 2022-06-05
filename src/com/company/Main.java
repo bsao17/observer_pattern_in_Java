@@ -11,6 +11,6 @@ public class Main {
         System.out.println("and there will " + colvert.duckNumber + " duck at the party !");
 
         colvert.singing("the Duck sing ... Coin Coin Coin");
-        colvert.flying("the Duck fly fly fly ...");
+        colvert.flying(true);
     }
 }
