@@ -1,8 +1,6 @@
 package com.company;
 
-import com.company.behaviors.Behaviors;
-
-public class DuckComportment implements Behaviors {
+public class DuckComportment implements Behavioral {
     @Override
     public void singing(String value) {
         System.out.println(value);
